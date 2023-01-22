@@ -1,0 +1,82 @@
+/*FONTS*/
+@font-face {
+    font-family: "Lora_Regular";
+    src: url('../fonts/Lora/Lora-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Lora_SemiBold";
+    src: url('../fonts/Lora/Lora-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Lora_Bold";
+    src: url('../fonts/Lora/Lora-Bold.ttf') format('truetype'); 
+}
+
+
+
+*{
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/*CONTAINERS*/
+
+div{
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+/*LISTS*/
+
+ul{
+    list-style-type: none; 
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+
+li {
+    margin-bottom: 8px;
+    font-family: "Lora_Regular", Times, serif;
+    font-size: 20px;
+    text-align: center;
+    
+
+}
+
+/*TEXTS*/
+
+h1 {
+    font-family: "Lora_Bold", Times, serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+h2 {
+    font-family: "Lora_SemiBold", Times, serif;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    padding-left: 50px;
+}
+
+p{
+    margin-top: -30px;
+    font-family: "Lora_Regular", Times, serif;
+    font-size: 25px;
+    text-align: center;
+
+}
