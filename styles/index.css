@@ -1,0 +1,214 @@
+/*FONTS*/
+@font-face {
+    font-family: "Lora_Regular";
+    src: url('../fonts/Lora/Lora-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Lora_SemiBold";
+    src: url('../fonts/Lora/Lora-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Lora_Bold";
+    src: url('../fonts/Lora/Lora-Bold.ttf') format('truetype'); 
+}
+
+
+
+*{
+    max-width: 100%;
+    box-sizing: border-box;
+    background-image: url(../images/figures.png);
+    background-attachment: fixed;
+    
+    
+}
+
+
+/*LAYOUT*/
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto auto 100px;
+    grid-gap: 1em;
+
+}
+
+header {
+    grid-row: 1;
+    grid-column: 1 / 4;
+   /* border: 2px solid green; */
+    padding-top: 15px;
+
+}
+
+.sidebar-left {
+    grid-row: 2;
+    grid-column: 1 / 2;
+    /*border: 2px solid red;*/
+}
+
+article {
+    grid-row: 2;
+    grid-column: 2 / 3;
+    /*border: 2px solid purple;*/
+}
+
+.sidebar-right {
+    grid-row: 2;
+    grid-column: 3 / 4;
+    /*border: 2px solid pink;*/
+}
+
+
+footer {
+    grid-row: 3;
+    grid-column: 1 / 4;
+    /*border: 2px solid orange;*/
+}
+
+/*SECTIONS*/
+
+section {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*LINKS*/
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main_content li a:hover {
+    font-family: "Lora_Bold", Times, serif;
+}
+
+
+.navigation_list li a:hover{
+    font-weight: bolder;
+}
+
+/*LISTS*/
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   /* border: 5px solid fuchsia; */
+}
+
+.navigation_list li {
+    padding: 20px 20px 15px 15px;
+    font-family: "Lora_Regular", Times, serif;
+    font-size: 17px;
+    /*border: 2px solid royalblue;*/
+}
+
+ol {
+    list-style-type: none; 
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}   
+
+
+.main_content li {
+    margin-bottom: 8px;
+    padding-top: 10px;
+    font-family: "Lora_Regular", Times, serif;
+    font-size: 20px;
+   
+    text-align: center;
+    list-style-type: decimal;
+    
+
+}
+
+/*TEXTS*/
+
+h1 {
+    font-family: "Lora_Bold", Times, serif;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    /*border: 2px solid salmon;*/
+
+}
+
+
+h2 {
+    font-family: "Lora_SemiBold", Times, serif;
+    font-size: 38px;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 50px;
+    margin-bottom: 25px;
+    padding-left: 0px;
+    color: black;
+}
+
+
+p{
+    margin-top: -30px;
+    font-family: "Lora_Regular", Times, serif;
+    font-size: 23px;
+    text-align: center;
+    color: black;
+   /* border: 2px solid teal;*/
+    
+
+}
+
+
+/*RIGHT SIDEBAR*/
+.sidebar-right {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/*PICTURES AND CAPTIONS*/
+figure {
+    margin: 60px 30px 30px 20px;
+    /*border: 2px solid green;*/ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    /*border: 2px solid rebeccapurple;*/ 
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+figcaption {
+    padding-top: 10px;
+    text-align: center;
+    color: grey;
+    font-style: italic;
+    font-size: 17px;
+}
+
+/*FOOTER*/
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+footer h4{
+    font-family: "Lora_Regular", Times, serif;
+    font-weight: 800;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}

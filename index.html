@@ -1,65 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="./styles/reset.css" />
+    <link type="text/css" rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
     <title>Project1</title>
-</head>
-<body>
-    <div class="title">
-        <h1>TOP 5 OF ALL TIMES</h1>
-        <p> Polly's edition</p>
-        <hr size="1" width="100%" color="black">  
-    </div>
-    <div class="movies">
+  </head>
+  <body>
+    <header>
+      <h1>TOP 5 OF ALL TIMES</h1>
+      <p>Polly's edition</p>
+      <nav>
+        <ul class="navigation_list">
+          <li><a href="">Books</a></li>
+          <li><a href="">Movies</a></li>
+          <li><a href="">Music</a></li>
+          <li><a href="">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <aside class="sidebar-left"></aside>
+    <article>
+      <section class="movies">
         <h2>TOP 5 MOVIES</h2>
-        <nav class="movies_list">
-            <ul>
-                <li>1. High Fidelity</li>
-                <li>2. The End of the Tour</li>
-                <li>3. Before Sunset</li>
-                <li>4. Leon</li>
-                <li>5. Annie Hall</li>
-            </ul>
-        </nav>
-    </div> 
-    <div class="books">
+        <ol class="movies_list , main_content">
+          <li>
+            <a href="https://www.imdb.com/title/tt0146882/" target="_blank"
+              >High Fidelity</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.imdb.com/title/tt3416744/?ref_=fn_al_tt_5"
+              target="_blank"
+              >The End of the Tour</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.imdb.com/title/tt0112471/?ref_=tt_sims_tt_i_1"
+              target="_blank"
+              >Before Sunrise</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.imdb.com/title/tt0110413/?ref_=fn_al_tt_1"
+              target="_blank"
+              >Leon</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.imdb.com/title/tt0075686/?ref_=fn_al_tt_1"
+              target="_blank"
+              >Annie Hall</a
+            >
+          </li>
+        </ol>
+      </section>
+      <section class="books">
         <h2>TOP 5 BOOKS</h2>
-        <nav class="books_list">
-            <ul>
-                <li>1. "Purity" by Jonathan Franzen</li>
-                <li>2. "Infinite Jest" by David Foster Wallace</li>
-                <li>3. "The Magus" by John Fowles</li>
-                <li>4. "The Secret Story" by Donna Tartt</li>
-                <li>5. "Slaughterhouse-Five" by Kurt Vonnegut</li>
-            </ul>
-        </nav>
-    </div>
-    <div class="songs">
+        <ol class="books_list, main_content">
+          <li>
+            <a
+              href="https://www.goodreads.com/book/show/23754479-purity"
+              target="_blank"
+              >"Purity" by Jonathan Franzen</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.goodreads.com/book/show/6759.Infinite_Jest?ac=1&from_search=true&qid=IgPjR7BCnc&rank=1"
+              target="_blank"
+              >"Infinite Jest" by David Foster Wallace</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.goodreads.com/book/show/16286.The_Magus?ac=1&from_search=true&qid=3hYGU3YUXy&rank=2"
+              target="_blank"
+              >"The Magus" by John Fowles</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.goodreads.com/book/show/29044.The_Secret_History?from_search=true&from_srp=true&qid=S8b1xoaSc8&rank=2"
+              target="_blank"
+              >"The Secret History" by Donna Tartt</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.goodreads.com/book/show/4981.Slaughterhouse_Five"
+              target="_blank"
+              >"Slaughterhouse-Five" by Kurt Vonnegut</a
+            >
+          </li>
+        </ol>
+      </section>
+      <section class="songs">
         <h2>TOP 5 SONGS</h2>
-        <nav class="songs_list">
-            <ul>
-                <li>1. "Come As You Are" by Nirvana</li>
-                <li>2. "You & Me Song" by The Wannadies</li>
-                <li>3. "There Is A Light That Never Goes Out" by The Smiths</li>
-                <li>4. "Torn" by Natalie Imbruglia</li>
-                <li>5. "All The Small Things" by blink-182</li>
-            </ul>
-        </nav>
-    </div>
-    <div class="tv-shows">
+        <ol class="songs_list, main_content">
+          <li>
+            <a
+              href="https://open.spotify.com/track/2RsAajgo0g7bMCHxwH3Sk0?si=cd389cdccdc3498f"
+              target="_blank"
+              >"Come As You Are" by Nirvana</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://open.spotify.com/track/6WShAtk9Ju7YiaCPBQNqeK?si=eee32079afd74189"
+              target="_blank"
+              >"You & Me Song" by The Wannadies</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://open.spotify.com/track/0WQiDwKJclirSYG9v5tayI?si=455febcfe6e34ad2"
+              target="_blank"
+              >"There Is A Light That Never Goes Out" by The Smiths</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://open.spotify.com/track/1Jaah2tmN9Hv81A87KZ1MU?si=fbc59f66302f4c27&nd=1"
+              target="_blank"
+              >"Torn" by Natalie Imbruglia</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://open.spotify.com/track/2m1hi0nfMR9vdGC8UcrnwU?si=063efda3c5bf4844"
+              target="_blank"
+              >"All The Small Things" by blink-182</a
+            >
+          </li>
+        </ol>
+      </section>
+      <section class="tv-shows">
         <h2>TOP 5 TV-SHOWS</h2>
-            <nav class="tv-shows_list">
-                <ul>
-                    <li>1. The Office</li>
-                    <li>2. How I Met Your Mother</li>
-                    <li>3. Friends</li>
-                    <li>4. Scrubs</li>
-                    <li>5. Charmed</li>
-                </ul>
-            </nav>
-    </div>
-</body>
+        <ol class="tv-shows_list, main_content">
+          <li>
+            <a href="https://www.imdb.com/title/tt0386676/" target="_blank"
+              >The Office</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.imdb.com/title/tt0460649/?ref_=nv_sr_srsg_0"
+              target="_blank"
+              >How I Met Your Mother</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.imdb.com/title/tt0108778/?ref_=fn_al_tt_1"
+              target="_blank"
+              >Friends</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.imdb.com/title/tt0285403/?ref_=fn_al_tt_1"
+              target="_blank"
+              >Scrubs</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.imdb.com/title/tt0158552/?ref_=fn_al_tt_1"
+              target="_blank"
+              >Charmed</a
+            >
+          </li>
+        </ol>
+      </section>
+    </article>
+    <aside class="sidebar-right">
+      <figure>
+        <img
+          src="./images/BeforeSunrise.jpg"
+          alt="Before Sunrise (1995)"
+          style="width: 70%"
+        />
+        <figcaption>
+          "Isn't everything we do in life a way to be loved a little more?"
+        </figcaption>
+      </figure>
+      <figure>
+        <img 
+          src="./images/Purity_book.jpg"
+          alt="'Purity' by Jonathan Franzen"
+          style="width: 40%"
+        />
+        <figcaption>
+          "It seemed as if the Internet was governed more by fear: the fear of
+          unpopularity and uncoolness, the fear of missing out, the fear of
+          being flamed or forgotten."
+        </figcaption>
+      </figure>
+      <figure>
+        <img
+          src="./images/TheWannadies.jpg"
+          alt="The Wannadies"
+          style="width: 50%"
+        />
+        <figcaption>"You & Me" (1994)</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="./images/How I Met Your Mother.jpg"
+          alt="How I Met Your Mother"
+          style="width: 50%"
+        />
+        <figcaption>"That’s life, you know. We never end up where you thought you wanted to be."</figcaption>
+      </figure>
+    </aside>
+    <footer>
+      <h4> &copy;Polyalya, 2023</h4>
+    </footer>
+  </body>
 </html>
